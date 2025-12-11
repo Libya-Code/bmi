@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+
+<body>
+    <div>
+        <h1>حساب <span>BMI</span></h1>
+        <label for="weight">الوزن (كجم):</label>
+        <input type="text" id="weight" placeholder="ادخل وزنك (الكيلوغرام)">
+        <br>
+        <label for="height">الطول (سم):</label>
+        <input type="text" id="height" placeholder="ادخل طولك (المتر)">
+        <br>
+        <button id="tebms">احسب كتلة الجسم</button>
+        <p id="result">
+        </p>
+        <span id="age"></span>
+        <br>
+        <fieldset>
+            <legend>جدول يساعدك في <span>معرفة</span> تصنيفك</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">جدول كلتة الجسم</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="classificatio">التصنيف</td>
+                        <td id="classification2">مؤشر الكتلة</td>
+                    </tr>
+                    <tr>
+                        <td id="classification1">نحافة</td>
+                        <td id="classification10">اقل من 18</td>
+                    </tr>
+                    <tr>
+                        <td id="classification2">وزن مثالي</td>
+                        <td id="classificatio">من 18 الى 24.9</td>
+                    </tr>
+                    <tr>
+                        <td id="classification3">وزن زائد</td>
+                        <td id="classification10">من 25 الى 29.9</td>
+                    </tr>
+                    <tr>
+                        <td id="classification4">سمنة درجه اولى</td>
+                        <td id="classificatio">30 الى 34.9</td>
+                    </tr>
+                    <tr>
+                        <td id="classification5">سمنة درجه ثانية</td>
+                        <td id="classification10">35 الى 39.9</td>
+                    </tr>
+                    <tr>
+                        <td id="classification6">سمنة مفرطة</td>
+                        <td id="classificatio">40 وما فوق</td>
+                </tbody>
+            </table>
+
+        </fieldset>
+        <br>
+    </div>
+</body>
+<script src="jav.js">
+
+</script>
+
+</html>
